@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/* 共通 */
+html {
+  font-size: 100%;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+body{
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 58%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+}
+
+li{
+  list-style: none;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+/* ヘッダー
+------------------------------- */
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 122px;
+}
+
+.header-left img{
+  width: 120px;
+  height: auto;
+}
+
+.header-right img{
+  height: 20px;
+  width: 20px;
+}
+
+header li{
+  font-size: 14px;
+}
+
+.header-right ul{
+  display: flex;
+}
+
+.header-right ul li{
+  padding: 0 15px;
+}
+
+/* メインの背景画像
+------------------------------- */
+.bg-wrapper{
+  background-image: url(img/mainvisual-pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  margin: 118px 0 95px 0;
+}
+
+/* about
+------------------------------- */
+.about-wrapper{
+  margin-bottom: 142px;
+}
+
+.about-text h3{
+  padding-bottom: 40px;
+}
+
+.info{
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* works
+------------------------------- */
+.works-wrapper{
+  margin-bottom: 136px;
+}
+
+.img-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-wrapper img{
+  width: 31%;
+  padding-bottom: 30px;
+}
+
+/* news
+------------------------------- */
+.news-wrapper span{
+  font-size: 15px;
+  line-height: 3;
+  padding-left: 45px;
+}
+
+
+.contact-wrapper .title{
+  margin-bottom: 20px;
+}
+
+.contact-wrapper .container{
+  text-align: center;
+}
+
+.info{
+  display: inline-block;
+}
+
+.info input{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  line-height: 2.5;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.info input:focus{
+  border: 2px solid #00f;
+}
+
+.btn {
+  position: relative;
+  margin: 15px auto;
+  padding: 20px;
+  font-size: 1.2rem;
+  width: 300px;
+  background: rgb(218, 51, 85);
+  box-shadow: 0 6px 0 rgb(145 0 29);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
+}
+
+/* footer
+------------------------------- */
+footer{
+  border: 1px solid #ccc;
+}
+
+footer .container{
+  text-align: right;
+}
+
+footer .container p{
+  font-size: 12px;
+  margin: 15px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

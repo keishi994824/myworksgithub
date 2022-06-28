@@ -1,0 +1,81 @@
+@media (max-width: 766px){
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* ヘッダー
+------------------------------- */
+  header .container{
+    flex-flow: column;
+  }
+
+  .header-left h1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .header-right ul{
+    margin: 15px 0;
+  }
+
+  .header-right li{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* メインのbg部分
+------------------------------- */
+.about img{
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.about-wrapper .title{
+  margin: 20px 0;
+}
+
+.about-wrapper .about{
+  flex-flow: column;
+}
+
+.about-wrapper .text{
+  margin-left: 0;
+  width: 95%;
+}
+
+.about-wrapper .text p{
+  font-size: 18px;
+}
+
+/* コース一覧部分
+------------------------------- */
+.course-wrapper .title{
+  margin: 20px 0;
+}
+
+.course{
+  flex-flow: column;
+  text-align: left;
+}
+
+.menu{
+  margin-bottom: 25px;
+}
+
+.menu p{
+  font-size: 18px;
+}
+
+/* お問合せ部分
+------------------------------- */
+.info{
+  width: 100%;
+}
+
+.btn{
+  width: 100%;
+  height: 80px;
+}
+
+}
